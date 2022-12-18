@@ -1,0 +1,117 @@
+body{margin: 0;font-family: cursive;}
+header{
+    position: relative;
+    background-image: url("./images/elias-bg-2.png");
+    min-height: 95vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+nav{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    padding: .3em;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 150%;
+}
+.container{
+    max-width: 1420px;
+    margin: auto;
+}
+#header-text{
+    font-family: cursive;
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    padding: 1em;
+}
+#hello-text{
+    font-size: 2em;
+    color: #aa224d;
+    margin: 0;
+}
+#name-text{
+    margin: 0;
+    font-weight: bold;
+    font-size: 5em;
+}
+#header-text p:last-child{
+    text-align: right;
+    font-size: 2em;
+    margin: 0 2em;
+}
+#name-text span{color: #f9004d;}
+.logo{
+    font-weight: bold;
+    font-size: 2em;
+    display: inline;
+}
+.logo span{
+    color: #f9004d;
+}
+nav ul{display: inline;float: right;margin-top: 1em;padding-right: 1em;}
+nav ul li{
+    display: inline;
+    margin: 0.3em;
+}
+nav ul li a{
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    border-bottom: 4px solid #f9004d;
+}
+nav ul li:last-child{
+    background: #f9004d;
+    padding: .7em 1em;
+    border-radius: 1.6em;
+}
+nav ul li:last-child:hover{
+    background: #fffe;
+    color: #f9004d;
+}
+nav ul li:last-child a:hover{border: none;color: #f9004d;}
+
+/************************* About Section **********************/
+
+#about{
+    padding: 2em;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 1020px;
+    margin: auto;
+}
+#about div:first-child img{width: 100%;}
+#about div:last-child{
+    width: 100%;
+    padding-left: 1.5em;
+}
+#about-title{
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    color: #f9004d;
+}
+#about-intro{
+    border-left: 3px solid;
+    padding: .3em;
+    color: rgb(185, 169, 169)
+}
+
+
+@media screen and (max-width: 930px){
+    nav ul{display: none;}
+    body{font-size: 10px;}
+    header{background-size: 100% 100%; min-height: 50vh;background-color: red;}
+    #header-text{bottom: 10%;}
+    #about{
+        flex-direction: column;
+    }
+}
