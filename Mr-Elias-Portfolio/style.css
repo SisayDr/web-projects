@@ -20,7 +20,6 @@ nav{
     margin: auto;
 }
 #header-text{
-    font-family: cursive;
     position: absolute;
     bottom: 40%;
     left: 10%;
@@ -81,7 +80,6 @@ nav ul li:last-child a:hover{border: none;color: #f9004d;}
     padding: 2em;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
-    font-family: cursive;
     display: flex;
     align-items: center;
     width: 90%;
