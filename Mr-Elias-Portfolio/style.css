@@ -10,7 +10,7 @@ nav{
     z-index: 1;
     position: fixed;
     width: 100%;
-    padding: .3em;
+    padding: 1rem;
     background: rgba(0, 0, 0, 1);
     color: white;
     font-size: 150%;
@@ -23,41 +23,41 @@ nav{
     position: absolute;
     bottom: 40%;
     left: 10%;
-    padding: 1em;
+    padding: 1rem;
 }
 #hello-text{
-    font-size: 2em;
+    font-size: 2rem;
     color: #aa224d;
     margin: 0;
 }
 #name-text{
     margin: 0;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 5rem;
 }
 #header-text p:last-child{
     text-align: right;
-    font-size: 2em;
-    margin: 0 2em;
+    font-size: 2rem;
+    margin: 0 2rem;
 }
 #name-text span{color: #f9004d;}
 .logo{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2rem;
     display: inline;
 }
 .logo span{
     color: #f9004d;
 }
-nav ul{display: inline;float: right;margin-top: 1em;padding-right: 1em;}
+nav ul{display: inline;float: right;margin-top: 1rem;padding-right: 1rem;}
 nav ul li{
     display: inline;
-    margin: 0.3em;
+    margin: 0.3rem;
 }
 nav ul li a{
     color: white;
-    padding: 0.5em 1em;
-    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 nav ul li a:hover{
@@ -65,8 +65,8 @@ nav ul li a:hover{
 }
 nav ul li:last-child{
     background: #f9004d;
-    padding: .7em 1em;
-    border-radius: 1.6em;
+    padding: .7rem 1rem;
+    border-radius: 1.6rem;
 }
 nav ul li:last-child:hover{
     background: #fffe;
@@ -77,11 +77,11 @@ nav ul li:last-child a:hover{border: none;color: #f9004d;}
 /************************* About Section **********************/
 
 #about{
-    padding: 2em;
+    padding: 2rem;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
     display: flex;
-    align-items: center;
+    align-itrems: center;
     width: 90%;
     max-width: 1020px;
     margin: auto;
@@ -89,24 +89,24 @@ nav ul li:last-child a:hover{border: none;color: #f9004d;}
 #about div:first-child img{width: 100%;}
 #about div:last-child{
     width: 100%;
-    padding-left: 1.5em;
+    padding-left: 1.5rem;
 }
 #about-title{
     text-align: center;
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: bold;
     color: #f9004d;
 }
 #about-intro{
     border-left: 3px solid;
-    padding: .3em;
+    padding: .3rem;
     color: rgb(185, 169, 169)
 }
 
 
 @media screen and (max-width: 930px){
     nav ul{display: none;}
-    body{font-size: 10px;}
+    html{font-size: 10px;}
     header{background-size: 100% 100%; min-height: 50vh;background-color: red;}
     #header-text{bottom: 10%;}
     #about{
