@@ -1,4 +1,4 @@
-body{margin: 0;}
+body{margin: 0;font-family: cursive;}
 header{
     position: relative;
     background-image: url("./images/elias-bg-2.png");
@@ -10,7 +10,7 @@ nav{
     z-index: 1;
     position: fixed;
     width: 100%;
-    padding: 1rem;
+    padding: .3em;
     background: rgba(0, 0, 0, 1);
     color: white;
     font-size: 150%;
@@ -20,44 +20,45 @@ nav{
     margin: auto;
 }
 #header-text{
+    font-family: cursive;
     position: absolute;
     bottom: 40%;
     left: 10%;
-    padding: 1rem;
+    padding: 1em;
 }
 #hello-text{
-    font-size: 2rem;
+    font-size: 2em;
     color: #aa224d;
     margin: 0;
 }
 #name-text{
     margin: 0;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 5em;
 }
 #header-text p:last-child{
     text-align: right;
-    font-size: 2rem;
-    margin: 0 2rem;
+    font-size: 2em;
+    margin: 0 2em;
 }
 #name-text span{color: #f9004d;}
 .logo{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2em;
     display: inline;
 }
 .logo span{
     color: #f9004d;
 }
-nav ul{display: inline;float: right;margin-top: 1rem;padding-right: 1rem;}
+nav ul{display: inline;float: right;margin-top: 1em;padding-right: 1em;}
 nav ul li{
     display: inline;
-    margin: 0.3rem;
+    margin: 0.3em;
 }
 nav ul li a{
     color: white;
-    padding: 0.5rem 1rem;
-    font-size: 1.2rem;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
     text-decoration: none;
 }
 nav ul li a:hover{
@@ -65,8 +66,8 @@ nav ul li a:hover{
 }
 nav ul li:last-child{
     background: #f9004d;
-    padding: .7rem 1rem;
-    border-radius: 1.6rem;
+    padding: .7em 1em;
+    border-radius: 1.6em;
 }
 nav ul li:last-child:hover{
     background: #fffe;
@@ -77,9 +78,10 @@ nav ul li:last-child a:hover{border: none;color: #f9004d;}
 /************************* About Section **********************/
 
 #about{
-    padding: 2rem;
+    padding: 2em;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
+    font-family: cursive;
     display: flex;
     align-items: center;
     width: 90%;
@@ -88,28 +90,37 @@ nav ul li:last-child a:hover{border: none;color: #f9004d;}
 }
 #about div:first-child img{width: 100%;}
 #about div:last-child{
-    width: 100%;
-    padding-left: 1.5rem;
+    width: 60%;
+    padding-left: 1.5em;
 }
 #about-title{
     text-align: center;
-    font-size: 5rem;
+    font-size: 5em;
     font-weight: bold;
     color: #f9004d;
 }
 #about-intro{
     border-left: 3px solid;
-    padding: .3rem;
+    padding: .3em;
     color: rgb(185, 169, 169)
 }
-
-
+#skills{
+    padding: 1rem
+}
+figure{
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    width: 31%;
+    margin: .5%;
+    display: inline-block;
+}
+figure img{width: 100%;}
+figcaption{text-align: center;padding: .5rem 1rem;}
 @media screen and (max-width: 930px){
     nav ul{display: none;}
-    html{font-size: 10px;}
     header{background-size: 100% 100%; min-height: 50vh;background-color: red;}
     #header-text{bottom: 10%;}
-    #about{
-        flex-direction: column;
-    }
+    #about{flex-direction: column; max-width: 420px; margin: auto;}
+    #about div:last-child{width: 100%;}
+    figure{width: 48%;}
 }
