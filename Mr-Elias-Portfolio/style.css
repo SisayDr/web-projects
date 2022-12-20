@@ -83,6 +83,7 @@ nav ul li:last-child a:hover{border: none;color: #f9004d;}
     display: flex;
     align-items: center;
     width: 90%;
+    font-size: 1.5rem;
     max-width: 1020px;
     margin: auto;
 }
@@ -93,7 +94,7 @@ nav ul li:last-child a:hover{border: none;color: #f9004d;}
 }
 #about-title{
     text-align: center;
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: bold;
     color: #f9004d;
 }
@@ -125,5 +126,5 @@ figcaption{text-align: center;padding: .5rem 1rem;}
 @media screen and (max-width: 540px) {
     #header-text{bottom: 10%; font-size:  70%;}
     #about{flex-direction: column; max-width: 420px; margin: auto;font-size: 1.2rem;}
-    figure{width: 100%;margin: 3%;font-size: 120%;}
+    figure{width: 100%;margin: 3%;font-size: 1.5rem;}
 }
