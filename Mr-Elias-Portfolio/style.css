@@ -127,6 +127,6 @@ figcaption{text-align: center;padding: .5rem 1rem;}
     #header-text{bottom: 10%; font-size:  60%;}
     header{background-size: 100% 100%; min-height: 50vh;}
     #about-title{font-size: 3rem;}
-    #about{flex-direction: column; width: 90vw;padding: .5rem;}
+    #about{flex-direction: column; width: 90vw;padding: .5rem;font-size: 1.2rem;}
     figure{width: 92%;margin: 3%;font-size: 1.5rem;}
 }
