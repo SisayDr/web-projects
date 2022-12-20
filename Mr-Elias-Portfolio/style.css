@@ -126,5 +126,5 @@ figcaption{text-align: center;padding: .5rem 1rem;}
 @media screen and (max-width: 540px) {
     #header-text{bottom: 10%; font-size:  70%;}
     #about{flex-direction: column; max-width: 420px; margin: auto;font-size: 1.2rem;}
-    figure{width: 100%;margin: 3%;font-size: 1.5rem;}
+    figure{width: 92%;margin: 3%;font-size: 1.5rem;}
 }
