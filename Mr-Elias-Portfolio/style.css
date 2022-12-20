@@ -80,7 +80,6 @@ nav ul li:last-child a:hover{border: none;color: #f9004d;}
     padding: 2em;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
-    font-family: cursive;
     display: flex;
     align-items: center;
     width: 90%;
@@ -117,9 +116,14 @@ figure img{width: 100%;}
 figcaption{text-align: center;padding: .5rem 1rem;}
 @media screen and (max-width: 930px){
     nav ul{display: none;}
-    header{background-size: 100% 100%; min-height: 50vh;}
+    header{background-size: 100% 100%; min-height: 50vh;;}
     #header-text{bottom: 10%;}
     #about{flex-direction: column; max-width: 420px; margin: auto;}
     #about div:last-child{width: 100%;}
     figure{width: 48%;}
+}
+@media screen and (max-width: 540px) {
+    #header-text{bottom: 10%; font-size:  70%;}
+    #about{flex-direction: column; max-width: 420px; margin: auto;font-size: 1.2rem;}
+    figure{width: 100%;margin: 3%;}
 }
