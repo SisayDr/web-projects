@@ -1,4 +1,4 @@
-body{margin: 0;font-family: cursive;}
+body{margin: 0;}
 header{
     position: relative;
     background-image: url("./images/elias-bg-2.png");
@@ -20,7 +20,6 @@ nav{
     margin: auto;
 }
 #header-text{
-    font-family: cursive;
     position: absolute;
     bottom: 40%;
     left: 10%;
@@ -105,12 +104,12 @@ nav ul li:last-child a:hover{border: none;color: #f9004d;}
     color: rgb(185, 169, 169)
 }
 #skills{
-    padding: 1rem
+    padding: .5rem;
 }
 figure{
     border: 1px solid #ccc;
     border-radius: .5rem;
-    width: 31%;
+    width: 30%;
     margin: .5%;
     display: inline-block;
 }
@@ -118,7 +117,7 @@ figure img{width: 100%;}
 figcaption{text-align: center;padding: .5rem 1rem;}
 @media screen and (max-width: 930px){
     nav ul{display: none;}
-    header{background-size: 100% 100%; min-height: 50vh;background-color: red;}
+    header{background-size: 100% 100%; min-height: 50vh;}
     #header-text{bottom: 10%;}
     #about{flex-direction: column; max-width: 420px; margin: auto;}
     #about div:last-child{width: 100%;}
