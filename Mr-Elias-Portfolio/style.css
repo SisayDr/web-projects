@@ -27,7 +27,7 @@ nav{
 }
 #hello-text{
     font-size: 2em;
-    color: #aa224d;
+    color: #e24677;
     margin: 0;
 }
 #name-text{
@@ -43,7 +43,7 @@ nav{
 #name-text span{color: #f9004d;}
 .logo{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 3rem;
     display: inline;
 }
 .logo span{
@@ -57,7 +57,7 @@ nav ul li{
 nav ul li a{
     color: white;
     padding: 0.5em 1em;
-    font-size: 1.2em;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 nav ul li a:hover{
@@ -115,6 +115,18 @@ figure{
 }
 figure img{width: 100%;}
 figcaption{text-align: center;padding: .5rem 1rem;}
+
+footer{
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+
+
+
+
 @media screen and (max-width: 930px){
     nav ul{display: none;}
     header{background-size: 100% 100%; min-height: 50vh;}
